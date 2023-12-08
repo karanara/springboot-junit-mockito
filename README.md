@@ -31,3 +31,8 @@ Use Spring Boot support: @MockBean and @Autowired
 • if existing bean is there, the mock bean will replace it
 • thus making the mock bean available for injection with @Autowired
 
+ReflectionTestUtils --utilty class by Spring allows us to set/get methods of private field
+                       invoke private methods too
+                       ReflectionTestUtils.setField
+                                           .getField
+                                            .invokeMethod
